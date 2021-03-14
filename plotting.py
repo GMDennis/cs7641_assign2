@@ -21,33 +21,21 @@ logger = logging.getLogger(__name__)
 input_path = 'output/'
 output_path = 'output/images/'
 to_process = {
-#    'FLIPFLOP': {
-#        'path': 'FLIPFLOP',
-#        'nn_curve': False,
-#        'multiple_trials': True
-#    }
-#    'COUNT_ONES': {
-#        'path': 'COUNT_ONES',
-#        'nn_curve': False,
-#        'multiple_trials': True
-#    }
-#
-#    'FOURPEAKS': {
-#        'path': 'FOURPEAKS',
-#        'nn_curve': False,
-#        'multiple_trials': True
-#    }
-
-#    'TSP': {
-#        'path': 'TSP',
-#        'nn_curve': False,
-#        'multiple_trials': True
-#    },
-#    'CONTPEAKS': {
-#        'path': 'CONTPEAKS',
-#        'nn_curve': False,
-#        'multiple_trials': True
-#    },
+    'FLIPFLOP': {
+        'path': 'FLIPFLOP',
+        'nn_curve': False,
+        'multiple_trials': True
+    },
+    'COUNT_ONES': {
+        'path': 'COUNT_ONES',
+        'nn_curve': False,
+        'multiple_trials': True
+    },
+    'TSP': {
+        'path': 'TSP',
+        'nn_curve': False,
+        'multiple_trials': True
+    },
     'NN': {
         'path': 'NN_OUTPUT',
         'nn_curve': True,
