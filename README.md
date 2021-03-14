@@ -1,5 +1,7 @@
 ### CS7641 assignment1 repository (gkim359)
 
+#### Base github : https://github.com/cmaron/CS-7641-assignments.git
+
 #### 1. install jython
 
 https://www.jython.org/
